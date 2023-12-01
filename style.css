@@ -1,0 +1,340 @@
+
+body{
+  background-color: black;
+}
+#tituloins {
+    font-family: 'Cookie', cursive;
+    font-size: 230%;
+    padding: 10% 7% 7% 9%;
+    margin: 0%;
+    color: white;
+}
+header {
+    background-color:black;
+    height: 100% ;
+    width: 18%;
+    position: fixed;
+}
+
+header ul li {
+    padding:9% 0% 12% 0%;
+    width: 150px;
+    height: 20px;
+    display:flex;
+    list-style:none;
+    align-items: stretch;
+}
+
+header ul{
+    padding-left: 22px;
+}
+
+.meun{
+    padding-left: 9%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.menuicon {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.pmasmenu{
+    padding-left: 7%;
+    display:flex;
+    align-items: stretch;
+    text-decoration: none;
+}
+
+.menues{
+    padding-left: 9%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 280px;
+}
+
+.masdrop{
+  text-decoration: none;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.profile{
+  position: absolute;
+  left:420px;
+  top: 150px;
+  width: 500px;
+  height: 50px;
+  display: inline;
+}
+
+.userprofile{
+  border-radius: 1000px;
+  width: 30px;
+  height: 30px;
+}
+
+p, svg{
+  color: white;
+}
+
+.firstinfoprof svg, .firstinfoprof p, .firstinfoprof img{
+  display: inline;
+}
+
+.circulodeprof, .firstinfoprof p{
+  padding-left: 8px;
+}
+
+.puntosdeprof{
+  position: absolute;
+  left:475px;
+  padding-top: 8px;
+  height: 25px;
+  width: 25px;
+}
+
+.iconosinterac{
+  width: 32px;
+  height:32px;
+  padding-left: 10px;
+}
+
+.diviconosonterac{
+  padding-top: 10px;
+}
+
+.iconosinteracfin{
+  position: absolute;
+  left:475px;
+  height: 25px;
+  width: 25px;
+}
+
+.gris{
+  color: #666;
+  height: 4px;
+  width: 4px;
+}
+
+.likes{
+  display: inline;
+  font-size: small;
+}
+
+hr{
+  color: white;
+}
+
+input{
+  width: 475px;
+  background-color: #000000;
+  font-size: small;
+}
+
+.profile2{
+  position: absolute;
+  left:420px;
+  top: 1020px;
+  width: 500px;
+  height: 50px;
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropup {
+    position: relative;
+    
+  }
+  
+  .dropup-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+  }
+  
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropup-content a:hover {
+    background-color: #c0c0c0}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #000000;
+  }
+
+  .textodrop{
+        width: 230px;
+        height: 10px;;
+        display:flex;
+        list-style:none;
+        align-items:baseline;
+  }
+
+.col{  
+    width: 80px;
+    height: 50px;
+    color: white;
+    padding-right: 30px;
+  
+}
+
+.contenedorcarrusel{
+ position: absolute;
+ left:350px;
+ width: 700px;
+ height: 50px;
+ display: inline;
+ padding-top: 35px;
+ 
+}
+
+.contenedorcarrusel div{
+  display: inline-block;
+}
+
+.contenedorcarrusel div p{
+  color: white;
+  padding-left: 5px;
+  font-size: smaller;
+}
+
+
+
+
+
+
+
+
+<!--para cargar mas texto-->
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked~.read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state~.read-more-trigger:before {
+    content: 'Ver más';
+  }
+  
+  .read-more-state:checked~.read-more-trigger:before {
+    content: 'Ver menos';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+  }
+
+  .read-more-wrap{
+    font-size:small;
+  }
+
+
+
+
+  .footerfin{
+    position: absolute;
+    left:1100px;
+    height: 250px;
+    width: 300px;
+    top: 50px;
+  }
+
+  .xd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .infofin{
+    margin:0px;
+    display: flex;
+  }
+
+  .inlinefin{
+    display: flex;
+    align-items: center;
+  }
+
+  .divfin{
+    display: flex;
+    align-items: center;
+  }
+
+  .tamañodiv{
+    padding-left: 10px;
+  }
+
+  .grisc{
+    color: #aca8a8;
+    margin-bottom: 0%;
+  }
+
+  .azulc{
+    color: rgb(0, 128, 255);
+    margin-bottom: 0%;
+  }
+
+  footer div p{
+    font-size: small;
+  }
+
+
+  
